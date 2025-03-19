@@ -23,7 +23,7 @@ def registrar_operacion(usuario, operacion, resultado):
     df.to_excel("operaciones.xlsx", index=False)
 
 # Interfaz de Streamlit
-st.title("Calculadora con Registro")
+st.title("Calculadora con Python")
 
 usuario = st.text_input("Usuario")
 if usuario:
